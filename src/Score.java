@@ -3,5 +3,6 @@ public class Score {
         MathQuiz mathQuiz = new MathQuiz();
         mathQuiz.result(mathQuiz.question1(), mathQuiz.question2(), mathQuiz.question3());
 
+        mathQuiz.correctAnswers();
     }
 }
